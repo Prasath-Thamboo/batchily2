@@ -290,14 +290,14 @@ header .hcon a {
 }
 
 .proj .procon .p-sec .ab7 {
-    background-image: url("/assets/winter-8814783_1920.jpg");  
-    background-position: center;
+    background-image: url("/assets/batchilyimg.jpg");  
+    background-position:bottom;
 
 }
 
 .proj .procon .p-sec .ab8 {
     background-image: url("/assets/oranges-4566274_1920.jpg");  
-    background-position: center;
+    background-position: left;
 
 }
 
@@ -484,9 +484,9 @@ header .hcon a {
 }
 
 .about1 .a-right p:nth-child(5) {
-    width: 100px;
+    width: 135px;
     bottom : 300px; 
-    left: 500px
+    left: 350px
 }
 
 .about1 .a-right p:nth-child(6) {
