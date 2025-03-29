@@ -257,57 +257,65 @@ header .hcon a {
 }
 
 .proj .procon .p-sec .ab1{
-    background-image: url("/assets/hiphop.jpg");
+    background-image: url("/assets/img/mhd5.jpg");
     background-position: center;
 }
 
 .proj .procon .p-sec .ab2{
-    background-image: url("/assets/hiphop\ \(3\).jpg");  
+    background-image: url("/assets/img/hiphop\ \(3\).jpg");  
     background-position: center;
 }
 
 .proj .procon .p-sec .ab3{
-    background-image: url("/assets/forest-8592902_1920\ \(1\).jpg");
+    background-image: url("/assets/img/forest-8592902_1920\ \(1\).jpg");
     background-position: center;
 }
 
 .proj .procon .p-sec .ab4 {
-    background-image: url("/assets/green-tree-python-9295182_1920.jpg");  
+    background-image: url("/assets/img/green-tree-python-9295182_1920.jpg");  
     background-position: center;
-
 }
 
 .proj .procon .p-sec .ab5 {
-    background-image: url("/assets/dog-9190504_1920.jpg");  
+    background-image: url("/assets/img/dog-9190504_1920.jpg");  
     background-position: center;
-
 }
 
 .proj .procon .p-sec .ab6 {
-    background-image: url("/assets/dance.png");  
+    background-image: url("/assets/img/dance.png");  
     background-position: center;
-
 }
 
 .proj .procon .p-sec .ab7 {
-    background-image: url("/assets/batchilyimg.jpg");  
+    background-image: url("/assets/img/batchilyimg.jpg");  
     background-position:bottom;
-
 }
 
 .proj .procon .p-sec .ab8 {
-    background-image: url("/assets/oranges-4566274_1920.jpg");  
+    background-image: url("/assets/img/oranges-4566274_1920.jpg");  
     background-position: left;
-
 }
-
-
 
 .proj .procon .p-sec .ab9 {
-    background-image: url("/assets/viticulture-7559964_1920.jpg");  
+    background-image: url("/assets/img/viticulture-7559964_1920.jpg");  
     background-position: center;
-
 }
+
+.proj .procon .p-sec .ab10{
+    background-image: url("/assets/img/batchilyimg.jpg");
+    background-position: center;
+}
+
+.proj .procon .p-sec .ab11{
+    background-image: url("/assets/img/puma4.jpg");
+    background-position: center;
+}
+
+.proj .procon .p-sec .ab12{
+    background-image: url("/assets/img/accor1.jpg");
+    background-position: center;
+}
+
 
 
 
@@ -335,7 +343,7 @@ header .hcon a {
 
 .about .a-right {
     width: 60%;
-    background-image: url("/assets/hiphop.png");
+    background-image: url("/assets/img/hiphop.png");
     background-position: center;
     height: 720px;
     border-radius: 20px;
@@ -689,6 +697,24 @@ footer ul{
     width: 100%;
     display: block;
 }
+
+.props .prop a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.props .prop a button{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.props .prop a button:active{
+    transform: scale(.9);
+}
+
 
 /************************************************Projet*************************************************/
 
