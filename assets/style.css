@@ -259,62 +259,130 @@ header .hcon a {
 .proj .procon .p-sec .ab1{
     background-image: url("/assets/img/mhd5.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab2{
     background-image: url("/assets/img/mhdd\ \(2\).jpg");  
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab3{
     background-image: url("/assets/img/Dadju\ \(7\).jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab4 {
     background-image: url("/assets/img/dadjuu\ \(1\).jpg");  
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab5 {
     background-image: url("/assets/img/dadjuuu\ \(3\).jpg");  
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab6 {
     background-image: url("/assets/img/daadju\ \(5\).jpg");  
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab7 {
     background-image: url("/assets/img/daaadju\ \(6\).jpg");  
-    background-position:bottom;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab8 {
     background-image: url("/assets/img/ddju\ \(1\).jpg");  
-    background-position: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab9 {
     background-image: url("/assets/img/dju\ \(1\).jpg");  
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab10{
     background-image: url("/assets/img/batchilyimg.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab11{
     background-image: url("/assets/img/puma4.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proj .procon .p-sec .ab12{
     background-image: url("/assets/img/accor1.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+
+.proj .procon .p-sec .ab13{
+    background-image: url("/assets/img/BlackM\ \(3\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proj .procon .p-sec .ab14{
+    background-image: url("/assets/img/BlaackM\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proj .procon .p-sec .ab15{
+    background-image: url("/assets/img/Frangleslie\ \(8\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proj .procon .p-sec .ab16{
+    background-image: url("/assets/img/FranglishConc\ \(3\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proj .procon .p-sec .ab17{
+    background-image: url("/assets/img/FranglishFlam2024\ \(5\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proj .procon .p-sec .ab18{
+    background-image: url("/assets/img/FranglishAfro\ \(2\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
@@ -849,6 +917,10 @@ footer ul{
     .grid{
         column-count:1
     }
+
+    .props .prop{
+        margin: 20px;
+    }
   }
 
   @media(max-width: 900px){
@@ -873,24 +945,31 @@ footer ul{
     }
     
     .about1 .a-right p:nth-child(2) {
-        left: 10px;
-        top: 120px;
+        left: 100px;
+        top: 50px;
     }
     
     .about1 .a-right p:nth-child(3) {
-        left: 10px;
-        top: 300px;
+        left: 30px;
+        top: 200px;
     }
     
     .about1 .a-right p:nth-child(4) {
         width: 100px;
-        bottom: 230px;
-        left: 200px
+        top: 250px;
+        left: 20px;
     }
 
     .about1 .a-right p:nth-child(5) {
-        width: 100px;
-        bottom: 50px;
+        padding: 20px;
+        left: 20px;    
+        bottom: 100px;
+    }
+
+    .about1 .a-right p:nth-child(6) {
+        padding: 20px;
+        width: 120px;
+        top: 180px;
     }
 
     section{
