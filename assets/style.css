@@ -216,6 +216,11 @@ header .hcon a {
     color: var(--main-color);
 }
 
+.projin .procon .p-sec .p-cont {
+    height: 250px!important;
+    width: 392px!important;
+}
+
 
 .proj .procon .p-sec .p-cont {
     height: 300px;
@@ -506,6 +511,14 @@ header .hcon a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.proj .procon .p-sec .ab36{
+    background-image: url("/assets/img/nba\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
