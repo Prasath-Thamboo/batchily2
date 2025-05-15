@@ -1047,10 +1047,6 @@ footer ul{
   }
 
 @media(max-width: 900px){
-        
-    .proj .procon .p-sec a {
-        width: 100%;
-    }
 
     .proj .procon .p-sec .p-cont {
         width: 100%;
@@ -1070,6 +1066,14 @@ footer ul{
     .props .prop{
         margin: 20px;
     }
+
+    .footer{
+    height: 100%;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    position: relative;
+    }
+
   }
 
   @media(max-width: 900px){
