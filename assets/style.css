@@ -1048,10 +1048,6 @@ footer ul{
 
 @media(max-width: 900px){
 
-    .proj .procon .p-sec .p-cont {
-        width: 100%;
-    }
-
     .proj{
         margin-bottom: 0;
     }
