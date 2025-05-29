@@ -138,7 +138,6 @@ header .hcon a {
     color: var(--second-color);
     z-index: 5;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border: 6px double #000000;
     transition: transform 0.3s ease;
     }
 
@@ -513,7 +512,7 @@ header .hcon a {
 }
 
 .proj .procon .p-sec .ab36{
-    background-image: url("/assets/img/nba\ \(1\).png");
+    background-image: url("/assets/img/nbaa\ \(2\).jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
