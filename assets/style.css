@@ -132,25 +132,19 @@ header .hcon a {
     right: 20px;
     display: flex;
     flex-direction: column;
-    color: grey;
     z-index: 5;
     transition: transform 0.3s ease;
     }
 
 .contact-button-contain a {
     color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
     padding: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .contact-button-contain a i {
     width: 20px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .fa, .fas {
@@ -180,7 +174,7 @@ header .hcon a {
 }
 
 .contact-button-contain a:hover {
-    color: var(--main2-bg-color);
+    color: grey;
     }
 
 /******************************************Proj***************************************************/
@@ -212,8 +206,8 @@ header .hcon a {
 }
 
 .projin .procon .p-sec .p-cont {
-    height: 250px!important;
-    width: 392px!important;
+    height: 225px!important;
+    width: 348px!important;
 }
 
 
@@ -1053,6 +1047,12 @@ footer ul{
     .grid{
         column-count:1
     }
+
+    
+    .props{
+        margin-bottom: 50px;
+    }
+
 
     .props .prop{
         margin: 20px;
