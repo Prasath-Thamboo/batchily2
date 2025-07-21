@@ -570,6 +570,8 @@ header .hcon a {
     border: none;
     border-radius: 10px;
     font-weight: 700;
+    cursor: pointer;
+    font-family: var(--orbitron);
 }
 
 .voir-p a button:active{
