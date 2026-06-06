@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="icon" href="/assets/img/logo.png" />
+        <script src="https://kit.fontawesome.com/605876b4c1.js" crossorigin="anonymous"></script>
+        <title>Batchily</title>
+    </head>
+
+<body>
+    <script src="/assets/components.js"></script>
+
+    <section class="grid" id="project-grid"></section>
+
+    <section class="props" id="project-props">
+        <div class="prop">
+            <p id="project-description" style="font-size:17px"></p>
+            <div id="project-links" style="display:flex;justify-content:center;gap:10px;"></div>
+        </div>
+        <div class="image1">
+            <img id="project-main-image" src="" alt="">
+        </div>
+    </section>
+
+    <script>
+        const id = parseInt(new URLSearchParams(window.location.search).get('id'));
+
+        fetch('/assets/projects.json')
+            .then(r => r.json())
+            .then(projects => {
+                const p = projects.find(x => x.id === id);
+                if (!p) { document.title = 'Projet introuvable'; return; }
+
+                document.title = 'Batchily — ' + p.title;
+
+                const grid = document.getElementById('project-grid');
+                p.gridImages.forEach(src => {
+                    const div = document.createElement('div');
+                    div.className = 'grid-items';
+                    const img = document.createElement('img');
+                    img.src = src;
+                    img.alt = p.title;
+                    div.appendChild(img);
+                    grid.appendChild(div);
+                });
+                if (p.gridImages.length === 0) grid.style.display = 'none';
+
+                document.getElementById('project-description').textContent = p.description;
+
+                const mainImg = document.getElementById('project-main-image');
+                mainImg.src = p.mainImage;
+                mainImg.alt = p.title;
+
+                const linksDiv = document.getElementById('project-links');
+                p.links.forEach(link => {
+                    const a = document.createElement('a');
+                    a.href = link.url;
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                    const btn = document.createElement('button');
+                    btn.textContent = link.label;
+                    a.appendChild(btn);
+                    linksDiv.appendChild(a);
+                });
+            });
+    </script>
+</body>
+</html>
