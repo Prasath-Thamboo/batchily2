@@ -36,6 +36,7 @@ const FOOTER_HTML = `
                 <ul>
                     <li><a href="/pages/mention.html">Mention légales</a></li>
                     <li><a href="/pages/confidentialite.html">Politique de confidentialité</a></li>
+                    <li><a href="/pages/cookies.html">Politique de cookies</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -55,7 +56,7 @@ const FOOTER_HTML = `
 const COOKIE_BANNER_HTML = `
 <div id="cookie-banner" class="cookie-banner">
     <div class="cookie-banner__content">
-        <p>Nous utilisons des cookies pour améliorer votre expérience. En continuant votre navigation, vous acceptez notre <a href="/pages/confidentialite.html">politique de confidentialité</a>.</p>
+        <p>Nous utilisons des cookies pour améliorer votre expérience. En continuant votre navigation, vous acceptez notre <a href="/pages/cookies.html">politique de cookies</a> et notre <a href="/pages/confidentialite.html">politique de confidentialité</a>.</p>
         <div class="cookie-banner__actions">
             <button id="cookie-accept" class="cookie-btn cookie-btn--accept">Accepter</button>
             <button id="cookie-decline" class="cookie-btn cookie-btn--decline">Refuser</button>
